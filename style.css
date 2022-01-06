@@ -86,3 +86,48 @@
 .goals{
     margin-left: 3%;
 }
+.mid-section{
+    background-image: url(./img/shape-3-01.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    margin-top: 10%;
+}
+.coding-pic{
+    
+    width: 40%;
+    margin-left: 10%;
+
+}
+.coding-pic img{
+    width: 90%;
+}
+.develop{
+    width: 35%;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.develop h2{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.develop h1{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 80px;
+}
+.develop p{
+    text-align: justify;
+    font-family: 'Libre Baskerville', serif;
+    
+}
+.develop a{
+    text-decoration: none;
+    font-size: 25px;
+    background-color: #00cec9;
+    font-family: 'Work Sans', sans-serif;
+    padding: 15px 20px;
+    border-radius: 5px;
+    line-height: 120px;
+}
