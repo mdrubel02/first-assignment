@@ -18,8 +18,15 @@
 .prsn img {
     width: 100%;
 }
-.top-section h1{
-    font-size: 60px;
+.border{
+    margin-top: 10%;
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, #00cec9 );
+    border-image-slice: 2;
+    border-radius: 10px;
+}
+.top-section h1{   
+     font-size: 60px;
     font-family: 'Libre Baskerville', serif;
     font-weight: 700;
     color: #34495e;
@@ -29,11 +36,12 @@
     font-family: 'Libre Baskerville', serif;
     font-weight: 700;
     color:#e58e26;
-    line-height: 145px;
+    
 }
 .top-section p{
     text-align: justify;
     font-family: 'Libre Baskerville', serif;
+    margin-top: 10%;
 }
 .top-section a{
     text-decoration: none;
@@ -42,7 +50,7 @@
     font-family: 'Work Sans', sans-serif;
     padding: 15px 20px;
     border-radius: 5px;
-    line-height: 80px;
+    line-height: 110px;
 }
 .mission{
     text-align: center;
