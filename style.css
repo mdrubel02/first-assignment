@@ -5,15 +5,11 @@
 .flexble{
     display: flex;
 }
-.line{
-    background-color: red;
-    width: 1%;
-    height: 20%;
-}
+
 .top-section {
-    width: 45%;
+    width: 40%;
     margin-top: 10%;
-    margin-left: 5%;
+    margin-left: 10%;
 }
 .prsn {
     width: 40%;
@@ -26,12 +22,13 @@
     font-size: 60px;
     font-family: 'Libre Baskerville', serif;
     font-weight: 700;
+    color: #34495e;
 }
 .top-section span {
     font-size: 60px;
     font-family: 'Libre Baskerville', serif;
     font-weight: 700;
-    color: #ffeaa7;
+    color:#e58e26;
     line-height: 145px;
 }
 .top-section p{
@@ -51,15 +48,14 @@
     text-align: center;
     margin-top: 5%;
     margin-bottom: 5%;
-    color: red;
+    color: #34495e;
     font-size: 50px;
 }
 .mission span{
-    color: blue;
+    color:#e58e26;
 }
 .box {
     width: 20%;
-    background-color: red;
     padding: 45px 20px;
     border-radius: 10px;
 }
@@ -74,17 +70,19 @@
 }
 .box p{
     text-align: justify;
-    font-family: 'Libre Baskerville', serif;
     padding: 10px 5px;
 }
 .missionn{
     margin-left: 10%;
+    background-color: #dfe4ea;
 }
 .vission{
     margin-left: 3%;
+    background-color: #ffcccc;
 }
 .goals{
     margin-left: 3%;
+    background-color: #F8EFBA;
 }
 .mid-section{
     background-image: url(./img/shape-3-01.png);
@@ -144,13 +142,49 @@
     text-align: center;
     margin-top: 5%;
     margin-bottom: 5%;
-    color: red;
+    color: #e58e26;
     font-size: 30px;
 }
 .build span{
-    color: blue;
+    color: #34495e;
+}
+
+.regestion-pic{
+    width: 35%;
+    margin-left: 5%;
+}
+.regestion-pic img{
+    width: 90%;
+}
+.safe{
+    width: 35%;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+.safe h1{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #ff6348;
+}
+.safe h2{
+    color: #ff7f50;
+    padding: 5px;
+}
+.safe a{
+    text-decoration: none;
+    font-size: 25px;
+    background-color: #00cec9;
+    font-family: 'Work Sans', sans-serif;
+    padding: 15px 20px;
+    border-radius: 5px;
+    line-height: 120px;
+}
+.safe p{
+    padding: 10px;
 }
 .mis {
+    margin-top: 5%;
     background-color: #222f3e;
     height: 100px;
     text-align: center;
@@ -161,4 +195,8 @@
     font-weight: bold;
     font-size: 35px;
     line-height: 80px;
+    color: #fff;
+}
+.mis h4{
+    color: #fff;
 }
