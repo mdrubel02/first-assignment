@@ -5,7 +5,11 @@
 .flexble{
     display: flex;
 }
-
+.line{
+    background-color: red;
+    width: 1%;
+    height: 20%;
+}
 .top-section {
     width: 45%;
     margin-top: 10%;
@@ -42,5 +46,43 @@
     padding: 15px 20px;
     border-radius: 5px;
     line-height: 80px;
-    
+}
+.mission{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: red;
+    font-size: 50px;
+}
+.mission span{
+    color: blue;
+}
+.box {
+    width: 20%;
+    background-color: red;
+    padding: 45px 20px;
+    border-radius: 10px;
+}
+.box img {
+    width: 38%;
+    height: 60%;
+}
+.box h1{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+.box p{
+    text-align: justify;
+    font-family: 'Libre Baskerville', serif;
+    padding: 10px 5px;
+}
+.missionn{
+    margin-left: 10%;
+}
+.vission{
+    margin-left: 3%;
+}
+.goals{
+    margin-left: 3%;
 }
